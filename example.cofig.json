@@ -1,0 +1,24 @@
+{
+    "smtps": [
+        {
+            "host": "smtp.host.com",
+            "port": 587,
+            "tls": true,
+            "username": "username@smtp.com",
+            "password": "smtppassword"
+        }
+    ],
+    "useProxy": false,
+    "proxies": [],
+    "bulkSend": false,
+    "randomizeSmtps": true,
+    "randomizeMessage": false,
+    "messages": [
+        "Hello Reciever one message one",
+        "Hello Reciever two message two",
+        "Hello Reciever three message three",
+        "Hello Reciever four message four"
+    ],
+    "retryOnFail": false,
+    "retryCount": 1
+}
